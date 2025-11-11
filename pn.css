@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#pn{
+   margin-top: -30px;
+    display: flex;
+    justify-content: space-around;
+    background-color:antiquewhite;
+    height: 100px;
+    
+}
+#hrf{
+    margin-left: 40%;
+    text-decoration: none;
+    color:darkred;
+    font-size: x-large;
+    border: 1px solid black
+    box-shadow burlywood;
+    margin-top: 10px;
+}
+
+#hrf:hover,
+#hrf:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+#logo2{
+    list-style-type: none;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-left: 30px;
+    
+    
+}
+#logo1{
+     display: flex;
+}
+#h2{
+    text-align: center;
+padding-top: 70px;
+font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: black;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 1px !important;
+
+}
+::-webkit-scrollbar-thumb{
+    background: #020024;
+background: #A52A2A;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-track{
+   background: #faebd7;
+
+}
+::-webkit-scrollbar-corner{
+    border-top: 40px;
+}
+::-webkit-scrollbar-corner{
+ border-radius: 10px;
+}
+#back{
+    /* background-image: url(bmw\ M3.jpg); */
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#name{
+    text-align: center;
+}
+#gall{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#h2:hover{
+    color:gold;
+}
+.lion{
+    height: 120px;
+    margin-right: 20%;
+    margin-top: 45px;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    
+
+}
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+ Add a hover effect if you want */
+ .fa:hover {
+  opacity: 0.7;
+  
+} */
+
+ Set a specific color for each brand */
+
+ Facebook */
+ .fa-facebook{
+  background-color: #3B5998;
+  color: white;} */
+#footer {
+    background-color: #333;
+    color:brown;
+    padding: 30px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.social-icons .fa {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: lightslategray;
+    color: darkred;
+    text-decoration: none;
+}
+
+.social-icons .fa:hover {
+    background-color: #777;
+}
+#hrf1{
+    text-decoration: none;
+    color:red;
+
+}
+#kaif{
+    height: 800px;
+background:#cdcaca;
+
+}
+#h1{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: darkkhaki;
+/* margin-left: 30; */
+margin-bottom: 50%;
+    
+    
+}
+
+.col-1{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+#op{
+    display: flex;
+    height: 510px;
+    width: 90%;
+    border-radius:100% ;
+    margin-right: -15px;
+    border: 8px solid darkred;
+    background-image: url(assets/IMG-20240913-WA0041.jpg);
+    background-repeat: no-repeat;
+}
+#op1{
+    margin-left: 100%;
+    width: 60%;
+
+}
+#im{
+    color: darkred;
+    font-size: 40px;
+}
+ body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 20px;
+        }
+        
+        .hero-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            gap: 50px;
+        }
+        
+        .hero-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .hero-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            border: 8px solid darkred;
+        }
+         @media (max-width: 768px) {
+            .hero-section {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
